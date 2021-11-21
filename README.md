@@ -22,7 +22,7 @@ This project entails the landing page for Delani Studio.The company designs, dev
 | Enter your message or comment   |  Where ar you located?     |     |
 | Click Submit|     |Pop up "Gilbert Yegon" , thank you for reaching out to us,we have received your message.|
 ## Live sites
-view [live](https://gilbertyegon.github.io/Akanes-names-project/)
+view [live](https://gilbertyegon.github.io/Delanni-studio/)
 
 ## License
   
