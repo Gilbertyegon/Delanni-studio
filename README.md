@@ -1,4 +1,4 @@
-# {DELANI STUDIO}
+# DELANI STUDIO
 #### By Gilbert Yegon
 ## Description
 This project entails the landing page for Delani Studio.The company designs, develops and manages projects.At Delani studio, we offer you the best customer service. Contact us by simply filling in the form on the webpage.
