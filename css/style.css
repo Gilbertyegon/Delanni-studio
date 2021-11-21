@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.delan {
+  height: 600px;
+  background-image: url('../images/backgrounds/h_img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  outline: none;
+  background-size: cover;
+  text-align: center;
+}
+
+.studio {
+  height: 44em;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding-top: 12%;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Slab', serif;
+}
+
+.small {
+  height: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: rgb(255, 0, 0);
+  font-family: Secular;
+}
+
+.services {
+  height: 300px;
+  background-image: url('../images/backgrounds/s_image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  outline: none;
+  background-size: cover;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.sparagraph {
+  height: 20em;
+  padding-top: 6%;
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 18%;
+  margin-right: 16%;
+}
+
+.col-md-3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.portfolio h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gabriela', serif;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.hovereffect p {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  padding: 10px;
+}
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect:hover p, .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+  color: white;
+  background-color: black;
+  backface-visibility: hidden;
+  background-color: transparent;
+}
+
+.text-area {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.form-control::placeholder {
+
+  color: white;
+  opacity: 1;
+}
+
+form {
+  display: inline-block;
+  width: 710px;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
