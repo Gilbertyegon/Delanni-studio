@@ -23,24 +23,24 @@ $(document).ready(function(){
       $("#burned").toggleClass("hovereffect");
   
       });
-    $(document).ready(function() {
-    $(".design").click(function() {
-      $(".image3").slideToggle();
-      $(".de").slideToggle();
-      padding: 0;
+      $(document).ready(function() {
+        $(".design").click(function() {
+          $(".image3").slideToggle();
+          $(".de").slideToggle();
+          padding: 0;
+        
+        });
+        });
+        $(".develop").click(function() {
+          $(".image1").slideToggle();
+          $(".dev").slideToggle();
+        });
+      
+        $(".product").click(function() {
+          $(".image2").slideToggle();
+          $(".pro").fadeToggle();
+        });
     
-    });
-    });
-    $(".develop").click(function() {
-      $(".image1").slideToggle();
-      $(".dev").slideToggle();
-    });
-  
-    $(".product").click(function() {
-      $(".image2").slideToggle();
-      $(".pro").fadeToggle();
-    });
-
 
     $(document).ready(function(){
         $("form#formsubmit").submit(function(event){
