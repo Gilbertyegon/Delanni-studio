@@ -1,16 +1,16 @@
 $(document).ready(function(){
     $(".col-md-3").hover(function(){
-      $("#ontario").toggleClass("hovereffect");
-  
-    });
-  });
-    $(".col-md-3").hover(function(){
-      $("#studio").toggleClass("hovereffect");
-  
+        $("#ontario").toggleClass("hovereffect");
+    
+      });
     });
       $(".col-md-3").hover(function(){
-        $("#jim").toggleClass("hovereffect");
-  
+        $("#studio").toggleClass("hovereffect");
+    
+      });
+        $(".col-md-3").hover(function(){
+          $("#jim").toggleClass("hovereffect");
+    
       });
         $(".col-md-3").hover(function(){
           $("#day").toggleClass("hovereffect");
@@ -27,8 +27,10 @@ $(document).ready(function(){
     $(".design").click(function() {
       $(".image3").slideToggle();
       $(".de").slideToggle();
+      padding: 0;
+    
     });
-  });
+    });
     $(".develop").click(function() {
       $(".image1").slideToggle();
       $(".dev").slideToggle();
