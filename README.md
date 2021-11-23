@@ -1,10 +1,10 @@
 # DELANI STUDIO
-#### [ By Gilbert Yegon ]
+> #### [ By Gilbert Yegon ]
 ## Description
 > This project entails the landing page for Delani Studio.The company designs, develops and manages projects.At Delani studio, we offer you the best customer 
 >  service. Contact us by simply filling in the form on the webpage.
 ## Setup
->* Click on the live link on the about section of the webpage.
+> * Click on the live link on the about section of the webpage.
 > * Once the webpage appears, click on the bouncing toggle button in the header section.
 > * Navigate through the about us section to see the services we offer and what we do.
 > * Scroll down to see a form.
@@ -26,7 +26,7 @@
 | Enter your message or comment   |  Where ar you located?     |     |
 | Click Submit|     |Pop up "Gilbert Yegon" , thank you for reaching out to us,we have received your message.|
 ## Live sites
-view [live](https://gilbertyegon.github.io/Delanni-studio/)
+> view [live](https://gilbertyegon.github.io/Delanni-studio/)
 
 ## License
   
