@@ -1,23 +1,23 @@
 # DELANI STUDIO
-#### By Gilbert Yegon
+#### [ By Gilbert Yegon ]
 ## Description
 > This project entails the landing page for Delani Studio.The company designs, develops and manages projects.At Delani studio, we offer you the best customer 
 >  service. Contact us by simply filling in the form on the webpage.
 ## Setup
-* Click on the live link on the about section of the webpage.
-* Once the webpage appears, click on the bouncing toggle button in the header section.
-* Navigate through the about us section to see the services we offer and what we do.
-* Scroll down to see a form.
-* Input your name, email and message.
-* Click on the submit button
+>* Click on the live link on the about section of the webpage.
+> * Once the webpage appears, click on the bouncing toggle button in the header section.
+> * Navigate through the about us section to see the services we offer and what we do.
+> * Scroll down to see a form.
+> * Input your name, email and message.
+> * Click on the submit button
 ## Installation Requirements
-All the external dependencies has been included using CDN. You only need to upload the HTML and CSS files to your host. and there you go
+> All the external dependencies has been included using CDN. You only need to upload the HTML and CSS files to your host. and there you go
 
 ## TECHNOLOGIES USED
-* HTML
-* CSS
-* JAVASCRIPT
-* JQUERY
+> * HTML
+> * CSS
+> * JAVASCRIPT
+> * JQUERY
 ## BEHAVIOUR DRIVEN DEVELOPMENT
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
