@@ -49,7 +49,7 @@ $(document).ready(function(){
               var email = $("input#name2").val();
               var message = $("textarea#comment").val();
               if ($("input#name1").val() && $("input#name2").val()){
-                alert (name + ",We have received your message. Thanks for your feedback.");
+                alert (name + ",We have received your message.Thanks for your feedback.");
               }
               else {
                 alert("Please enter a valid email and name!");
